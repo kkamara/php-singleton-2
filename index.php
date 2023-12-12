@@ -1,17 +1,25 @@
 <?php
 
-trait Say_World {
-    public $name = "Jane Doe";
+// Singleton.
+class User {
+    private static $instance;
 
-    public function say_hello() {
-        echo "Hello Trait".PHP_EOL;
+    public static function get_instance() {
+        if(!isset(self::$instance)) {
+            echo "Check happens here.".PHP_EOL;
+            self::$instance = new self();
+        }
+        echo '1'.PHP_EOL;
+        return self::$instance;
+    }
+
+    public function __toString() {
+        return "test";
     }
 }
 
-class Base {
-    use Say_World;
-}
+$user1 = User::get_instance();
+$user2 = User::get_instance();
+$user3 = User::get_instance();
 
-$b = new Base();
-$b->say_hello();
-echo $b->name.PHP_EOL;
+echo $user1.PHP_EOL;

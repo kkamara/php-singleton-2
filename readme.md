@@ -2,7 +2,7 @@
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# PHP Traits [![Tests Pipeline](https://github.com/kkamara/php-traits/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-traits/actions/workflows/build.yml)
+# PHP Singleton [![Tests Pipeline](https://github.com/kkamara/php-singleton/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-singleton/actions/workflows/build.yml)
 
 
 
@@ -26,8 +26,6 @@
 
 ```bash
 php index.php
-> Hello Trait
-> Jane Doe
 ```
 
 ## Misc
