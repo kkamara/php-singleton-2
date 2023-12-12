@@ -2,7 +2,7 @@
 
 <img src="https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true" alt="php-reactjs-boilerplate2.png" width=""/>
 
-# PHP Singleton [![Tests Pipeline](https://github.com/kkamara/php-singleton/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-singleton/actions/workflows/build.yml)
+# PHP Singleton 2 [![Tests Pipeline](https://github.com/kkamara/php-singleton-2/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-singleton-2/actions/workflows/build.yml)
 
 
 
