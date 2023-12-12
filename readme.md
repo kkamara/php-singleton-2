@@ -26,6 +26,9 @@
 
 ```bash
 php index.php
+// Or
+php -S localhost:3000
+// http://localhost:3000
 ```
 
 ## Misc
